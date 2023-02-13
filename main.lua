@@ -281,5 +281,5 @@ Section5:NewButton("Spammer", "It spams", function()
         [3] = "set"
     }
     game:GetService("ReplicatedStorage"):WaitForChild("AddStat"):FireServer(unpack(args))
-end)
+end
 end)
