@@ -270,7 +270,7 @@ end)
 
 local Tab3 = Window:NewTab("Spammers")
 
-local Section5 = Tab2:NewSection("Spammers")
+local Section5 = Tab3:NewSection("Spammers")
 
 Section5:NewButton("Spammer", "It spams", function()
     while true do
